@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+}
+
+div {
+  margin: 0; 
+}
+
+.sticker {
+  background-color: lightgray;
+  padding: 5px;
+}
+
+main {
+  width: 380px;
+  height: 270px;
+  background-color: lightseagreen;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section {
+  background-color: white;
+  color: black;
+  height: 115px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 2.5em;
+  line-height: 115px;
+  }
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello {
+  font-size: 4em;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+.my-name {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
