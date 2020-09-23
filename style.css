@@ -49,3 +49,43 @@ section {
   font-size: 2em;
   margin-bottom: 10px;
 }
+
+.input {
+  margin: 20px;
+  }
+
+
+  .flip-scale-down-diag-2 {
+    animation: flip-scale-down-diag-2 0.5s infinite ease-in-out;
+}
+
+  /* @keyframes flip-scale-down-diag-2 {
+    0% {
+      transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+    }
+    50% {
+      transform: scale(0.4) rotate3d(-1, 1, 0, -90deg);
+    }
+    100% {
+      transform: scale(1) rotate3d(-1, 1, 0, -180deg);
+    }
+  } */
+
+  @keyframes flip-scale-down-diag-2  {
+    20% {
+      transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
+    }
+
+    40% {
+        transform: rotate3d(10, 10, -10, 50deg) scale(1);
+    }
+
+    60% {
+        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
+      }
+
+    80% {
+        transform: rotate3d(10, 10, 10, 50deg) scale(1);
+    }
+
+  }
