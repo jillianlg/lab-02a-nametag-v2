@@ -19,21 +19,21 @@ document.querySelector(".sticker").classList.toggle("flip-scale-down-diag-2")
 
 // I'm at a lost for what I am doing wrong here.
 
-const newColor1 = document.querySelector("main");
+const color1 = document.querySelector('#color1-button');
 color1.addEventListener('click', () => {
   console.log('blue');
   const color1 = document.body; 
   color1-button.classList.toggle('color1');
 });
 
-const newColor2 = document.querySelector("main");
+const color2 = document.querySelector('#color2-button');
 color2.addEventListener('click', () => {
   console.log('blue');
   const color2 = document.body; 
   color2-button.classList.toggle('color2');
 });
 
-const newColor3 = document.querySelector("main");
+const color3 = document.querySelector('#color3-button');
 color3.addEventListener('click', () => {
   console.log('blue');
   const color3 = document.body; 
