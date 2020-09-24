@@ -21,14 +21,15 @@ document.querySelector(".sticker").classList.toggle("flip-scale-down-diag-2")
 
 const color1 = document.querySelector('#color1-button');
 color1.addEventListener('click', () => {
-  console.log('blue');
+  console.log('pink');
+  
   const color1 = document.body; 
   color1-button.classList.toggle('color1');
 });
 
 const color2 = document.querySelector('#color2-button');
 color2.addEventListener('click', () => {
-  console.log('blue');
+  console.log('green');
   const color2 = document.body; 
   color2-button.classList.toggle('color2');
 });
