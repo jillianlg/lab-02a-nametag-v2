@@ -17,26 +17,25 @@ button.addEventListener("click", e => {
 document.querySelector(".sticker").classList.toggle("flip-scale-down-diag-2")
 })
 
-// I'm at a lost for what I am doing wrong here.
 
 const color1 = document.querySelector('#color1-button');
 color1.addEventListener('click', () => {
   console.log('pink');
+
+  document.querySelector("main").classList.toggle("color1")
   
-  const color1 = document.body; 
-  color1-button.classList.toggle('color1');
 });
 
 const color2 = document.querySelector('#color2-button');
 color2.addEventListener('click', () => {
   console.log('green');
-  const color2 = document.body; 
-  color2-button.classList.toggle('color2');
+
+  document.querySelector("main").classList.toggle("color2")
 });
 
 const color3 = document.querySelector('#color3-button');
 color3.addEventListener('click', () => {
   console.log('blue');
-  const color3 = document.body; 
-  color3-button.classList.toggle('color3');
+ 
+  document.querySelector("main").classList.toggle("color3")
 });
